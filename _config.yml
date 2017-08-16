@@ -7,14 +7,14 @@
 title: ZZ
 subtitle:
 description:
-author: Z
+author: ZZ
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url:http://zfk123.gq/
 baseurl:
 permalink: pretty
 
@@ -59,16 +59,16 @@ defaults:
       comments: true
 
 # Atom feed
-feed:
-  path: atom.xml
+1feed:
+1  path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-gems:
+1gems:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
- - jekyll-sitemap
- - jekyll-feed
+1 - jekyll-sitemap
+1 - jekyll-feed
 
 # ---------------------------------------------------------------
 # Site Information Settings
