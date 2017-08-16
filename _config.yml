@@ -83,7 +83,7 @@ keywords: "ZZ"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-11rss:
+
 
 # Specify the date when the site was setup
 #since: 2015
@@ -215,8 +215,10 @@ font:
 #social:
   #LinkLabel: Link
 social:
- QQzone: https://user.qzone.qq.com/491470048
+  QQzone: https://user.qzone.qq.com/491470048
+  GitHub: https://github.com/leejunxiang
 
+  
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
