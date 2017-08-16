@@ -60,15 +60,15 @@ defaults:
 
 # Atom feed
 1feed:
-1  path: atom.xml
+  path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 1gems:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
-1 - jekyll-sitemap
-1 - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-feed
 
 # ---------------------------------------------------------------
 # Site Information Settings
