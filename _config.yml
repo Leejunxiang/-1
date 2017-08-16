@@ -214,9 +214,7 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-social:
-  QQzone: https://user.qzone.qq.com/491470048
-  GitHub: https://github.com/leejunxiang
+
 
   
 # Social Links Icons
