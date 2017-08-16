@@ -4,10 +4,14 @@
 # ---------------------------------------------------------------
 
 # Site
+<<<<<<< HEAD
 title: Z��Сվ
+=======
+title: Z的小站
+>>>>>>> fff063ae20e62e69c1bd2f8aa0f5263e21948d39
 subtitle:
 description:
-author: John Doe
+author:Z
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
