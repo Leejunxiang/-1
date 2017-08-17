@@ -1,16 +1,15 @@
-<<<<<<< HEAD
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: ZZ的小站
 subtitle:
 description:
-author: John Doe
+author: ZZ
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -33,7 +32,7 @@ paginate: 10
   #paginate_path: "/page:num/"
 
 # Handling Reading
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md",  "README_en.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -60,8 +59,6 @@ defaults:
       comments: true
 
 # Atom feed
-feed:
-  path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -78,7 +75,7 @@ feed:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "ZZ"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -700,8 +697,3 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
-=======
-theme: jekyll-theme-slate
-title: ZZ的小站
-author: ZZ
->>>>>>> 61e836f8b6c1c007b8d97c465f1d2b854c268473
