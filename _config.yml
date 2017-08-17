@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: ZZ的小站
+title: NexT
 subtitle:
 description:
-author: ZZ
+author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-Hans
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
@@ -59,12 +59,12 @@ defaults:
       comments: true
 
 # Atom feed
-1feed:
+feed:
   path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-1gems:
+gems:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
  - jekyll-sitemap
@@ -78,12 +78,12 @@ defaults:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "ZZ"
+keywords: "Jekyll, NexT"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-
+rss:
 
 # Specify the date when the site was setup
 #since: 2015
@@ -214,10 +214,8 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-social:
-  GitHub: https://github.com/leejunxiang
-  Baidu: https://www.baidu.com
-  
+
+
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -381,7 +379,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: ture
+  enable: false
   shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
