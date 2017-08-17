@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 17.8.17-hello world-建站说明
-description: 终于完成了，做一个简单的说明
+title: hello world-建站说明
+description: 历时3天终于完成了这个网站，做一个简单的说明
 category: build
 ---
 
