@@ -2,8 +2,7 @@
 layout: post
 title: [17.8.17]hello world！建站说明
 description: 终于完成了，做一个简单的说明
-category: blog
-stickie: ture
+category: build
 ---
 
 > 这个小站的用途
