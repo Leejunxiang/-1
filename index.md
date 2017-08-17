@@ -10,7 +10,8 @@ layout: default
        </div>
       <div id="particles-js"></div>
     </div>
-
+           建立于2017.8.17
+         军机处处长的日常修养
     <div class="index-content">
       <ul class="artical-list">
         {% for post in site.categories.blog %}
