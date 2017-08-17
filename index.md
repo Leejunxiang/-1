@@ -7,8 +7,8 @@ layout: default
     <div class="aside">
       <div class="info-card">
         <h1>ZZ的个人小站</h1>
-         建立于2017.8.17
-         军机处处长的日常修养
+         <font color="#FFFAF0">建立于2017.8.17 </font>
+         <font color="#FFFAF0">军机处处长的日常修养</font>
        </div>
       <div id="particles-js"></div>
     </div>
