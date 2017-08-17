@@ -1,10 +1,17 @@
 # Resources settings
-title: ZZ的小站
 source:      .
 layouts:     ./_layouts
 timezone:    +0800
+lang: zh-CN
+      #set the <meta lang="">
+      #设置<meta lang="">
 gems: ['jekyll-paginate', 'jekyll-multiple-languages']
-
+languages: ['cn', 'en']
+           #list all of your site languages
+           #列出您的网站所有的语言
+language_default: 'cn'
+                  #your site default language
+                  #您的网站的默认语言
 # Site settings
 email: 
 author: ZZ
@@ -20,13 +27,13 @@ published: false
 safe: false
 permalink: /:year/:month/:day/:title/
 paginate_path: /lang/page:num
-paginate: 2
+paginate: 10
 markdown: kramdown
 excerpt_separator: '<!-- more -->'
 
 exclude: ['README.md']
 
-github_username: ZZ
+github_username: Leejunxiang
 repo: 
 owner_name: ZZ
 
@@ -48,7 +55,7 @@ remind: true
 
 #Others
 #Baidu
-BaiduSiteVerification: "lLhmCmVmTf"
+BaiduSiteVerification: ""
 #51La
 51la: "19258191"
 51lamb: "1"
