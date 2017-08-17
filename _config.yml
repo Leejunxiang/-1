@@ -6,7 +6,7 @@ lang: zh-CN
       #set the <meta lang="">
       #设置<meta lang="">
 gems: ['jekyll-paginate', 'jekyll-multiple-languages']
-languages: ['cn', 'en']
+languages: ['cn']
            #list all of your site languages
            #列出您的网站所有的语言
 language_default: 'cn'
