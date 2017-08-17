@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
@@ -700,3 +701,8 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+=======
+theme: jekyll-theme-slate
+title: ZZ的小站
+author: ZZ
+>>>>>>> 61e836f8b6c1c007b8d97c465f1d2b854c268473
