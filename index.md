@@ -7,11 +7,12 @@ layout: default
     <div class="aside">
       <div class="info-card">
         <h1>ZZ的个人小站</h1>
+         建立于2017.8.17
+         军机处处长的日常修养
        </div>
       <div id="particles-js"></div>
     </div>
-           建立于2017.8.17
-         军机处处长的日常修养
+          
     <div class="index-content">
       <ul class="artical-list">
         {% for post in site.categories.blog %}
