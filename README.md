@@ -1,163 +1,32 @@
-# JOYTOU
 
-#I'm sorry, my English is not so well. If there any mistakes in the document, please understand.
+> ZZ的小站
 
-*JOYTOU is a blog template built from Bootstrap by Joytou. You can choose to [preview the theme](https://joytou.github.io/) first.*
+> 这个小站的用途
 
-*JOYTOU是一款由Joytou通过Bootstrap制作的博客模板。您可以先选择[预览主题](https://joytou.github.io/)。*
+目前计划的用途有： 1.存放个人资料 2.存放文章、读书笔记 3.存放软件备份、电脑有关资料等
+至于其他方面的，以后如果需要再说吧
 
-================
+> 这个小站的建设
 
-##Usage
-##使用
+毫无疑问，它现在是简陋的。因为我对于网站的建设甚至算不上入门，许多功能和代码，都需要逐渐的摸索，因为高三时间紧张，对于更多功能的添加，可能会放到高中毕业之后。
 
-1.Download the template from https://github.com/joytou/joytou.github.io [Demo](https://joytou.github.io)
-
-1.从https://github.com/joytou/joytou.github.io 下载模板资源。[Demo](https://joytou.github.io)
-
-2.Change the '_config.yml' to your setting:
-
-2.修改'_config.yml'中的如下配置:
-
-```yml:
-# Resources settings
-source:      .
-layouts:     ./_layouts
-timezone:    +0800
-lang: zh-CN
-      #set the <meta lang="">
-      #设置<meta lang="">
-gems: ['jekyll-paginate', 'jekyll-multiple-languages']
-languages: ['cn', 'en']
-           #list all of your site languages
-           #列出您的网站所有的语言
-language_default: 'en'
-                  #your site default language
-                  #您的网站的默认语言
-
-# Site settings
-email: 1540294142@qq.com 
-       #your email 
-       #您的电子邮件
-author: Joytou Wu 
-        #author name 
-        #作者名称
-url: https://joytou.github.io 
-     #the site url 
-     #网址
-
-github: https://github.com/joytou/ 
-        #your github url 
-        #您的github网址
-baseurl: "" 
-         # application directory
-         #安装目录
-
-future: true
-show_drafts: nil
-lsi: true
-published: false
-safe: false
-permalink: /:year/:month/:day/:title/ 
-           #The format of the article's link
-           #文章链接的格式
-paginate: 2
-          #The number of articles per page
-          #每页的文章数量
-markdown: kramdown
-excerpt_separator: '<!-- more -->'
-
-exclude: ['README.md']
-
-github_username: joytou 
-                 #your github user name 
-                 #您的github用户名
-owner_name: Joytou 
-            #the owner name 
-            #所有者名称
-
-# Keywords
-keywords: #the keywords for the meta:<meta name="keywords" content="">
-          #您的网站的关键词：<meta name="keywords" content="">
-          #It has to list like(per one each line): -"keyword"
-          #需按照以下格式列出（每行一个）：-"关键词"
-        - "github"
-        - "bootstrap"
-        - "blog"
-        - "joytou"
-        - "markdown"
-        - "博客"
-        - "个人博客"
-        - "博客模板"
-#Others
-BaiduSiteVerification: "***"
-                       -Your Baidu HTML Tag Verification：baidu-site-verification
-                       -If not, please leave blank.
-                       -您的百度HTML标签验证：baidu-site-verification
-                       -如果没有，请留空白
-```
-
-3.Setting the site information
-
-3.配置网站信息
-
-In each '(language code).yml' file, change under information
-
-在各个'(语言代码).yml'文件中，修改以下信息
-```
-name: JOYTOU 
-      #Your site name 
-      #您的网站名称
-subname: 一个热爱折腾、不肯休息的业余程序员！
-         #Your site sub name
-         #您的网站子名称
-description: 此博客模板由Joytou通过Bootstrap创建 
-             #your site's description 
-             #您的网站描述
-about: JOYTOU是由我(Joytou)单独完成的。如果您喜欢此模板，可以对此模板小额资助。 
-       #about your site 
-       #关于您的网站
-```
-4.Write article
-
-4.写文章
-
-create a empty file in '_posts' and name it like 'year-month-date-title.md',and then write like this:
-
-在'_posts'文件夹创建空白文件，并以下面格式命名：'year-month-date-title.md' (注：title为英文格式，不能为中文)，按以下要求写文章：
+> 简略的建站教程
   
-```bash
----
-layout: post
-title:  test
-       #article title 
-       #文章标题
-date:   2015-04-05 08:00:00 +0800
-      #publish date 
-      #发布日期
-nav: post 
-     #don't change this line 
-     #请不要修改这一行
-stickie: true 
-         #Make the article stick to the top if true 
-         #如果为true则文章置顶
-category: official 
-          #the category for the article 
-          #文章的分类
-tags: [log, bootstrap, joytou]
-      #the tags for the article, it should be a array 
-      #文章的标签，必须是数组
----
+上面已经说到，高三的时间不多，故不写“傻瓜式”教程，只能简略的来说一说，挂几个教程链接
+如果读者你有一定的电脑基础，那么这些教程一定是足够的，当然 一些教程因为时间的差异 具体细节可能有变动
+在实际的操作过程中，也可能遇到这样或那样的困难，不过，电脑的乐趣正在于“折腾”，多发现问题，多解决问题，顺便可以提高电脑水平
+附各种链接如下：
+http://cyzus.github.io/2015/06/21/github-build-blog/
+https://leomu.gq/2016/08/29/%E5%88%9D%E6%AD%A5%E9%85%8D%E7%BD%AE%E7%BB%88%E4%BA%8E%E5%B7%AE%E4%B8%8D%E5%A4%9A%E4%BA%86%EF%BC%81/
 
-* content
-{:toc}
+上面的教程，只针对于建立一个空间，有个长域名，至于域名的DNS接管等问题，第二个链接中提到了网站，在网上也可以找到相关的教程
+这里并不多加叙述。
 
-#Summary content.
-#摘要内容
-<!-- more -->
-#Writting the article here.
-#在这儿写文章
-```
- and so on.
- 
- 完结。
+另：这个里面的东西 .md 文件一类 需要用专门的 markdown软件来编辑 网上下一个就好
+总之 这个教程真的很“简略” 如果是零基础的小白， 需要多百度
+我在搞这个的时候 也是零基础 碰了各种钉子 历时一天 经过各种调试 勉强可以有个东西了
+
+当然 现在十分十分不完备 我打算加个主题模版
+然而因为网络空间升级 导致以前的模版不能用了 在找到新的模版之前
+只能如此的简陋了
+2017-8-17 19:12:02
