@@ -1,35 +1,32 @@
-# NexT
 
-> 精于心，简于形
+> ZZ的小站
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+> 这个小站的用途
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.github.io" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+目前计划的用途有： 1.存放个人资料 2.存放文章、读书笔记 3.存放软件备份、电脑有关资料等
+至于其他方面的，以后如果需要再说吧
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+> 这个小站的建设
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+毫无疑问，它现在是简陋的。因为我对于网站的建设甚至算不上入门，许多功能和代码，都需要逐渐的摸索，因为高三时间紧张，对于更多功能的添加，可能会放到高中毕业之后。
 
+> 简略的建站教程
+  
+上面已经说到，高三的时间不多，故不写“傻瓜式”教程，只能简略的来说一说，挂几个教程链接
+如果读者你有一定的电脑基础，那么这些教程一定是足够的，当然 一些教程因为时间的差异 具体细节可能有变动
+在实际的操作过程中，也可能遇到这样或那样的困难，不过，电脑的乐趣正在于“折腾”，多发现问题，多解决问题，顺便可以提高电脑水平
+附各种链接如下：
+http://cyzus.github.io/2015/06/21/github-build-blog/
+https://leomu.gq/2016/08/29/%E5%88%9D%E6%AD%A5%E9%85%8D%E7%BD%AE%E7%BB%88%E4%BA%8E%E5%B7%AE%E4%B8%8D%E5%A4%9A%E4%BA%86%EF%BC%81/
 
-## 浏览器支持 Browser support
+上面的教程，只针对于建立一个空间，有个长域名，至于域名的DNS接管等问题，第二个链接中提到了网站，在网上也可以找到相关的教程
+这里并不多加叙述。
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+另：这个里面的东西 .md 文件一类 需要用专门的 markdown软件来编辑 网上下一个就好
+总之 这个教程真的很“简略” 如果是零基础的小白， 需要多百度
+我在搞这个的时候 也是零基础 碰了各种钉子 历时一天 经过各种调试 勉强可以有个东西了
 
-
-## 贡献 Contributing
-
-欢迎提交问题与需求，修复代码。
-
-
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
+当然 现在十分十分不完备 我打算加个主题模版
+然而因为网络空间升级 导致以前的模版不能用了 在找到新的模版之前
+只能如此的简陋了
+2017-8-17 19:12:02
