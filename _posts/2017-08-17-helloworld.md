@@ -1,8 +1,8 @@
 ---
 layout: post
-title: hello world-建站说明
+title: [17.8.17]hello-world！-建站说明
 description: 历时3天终于完成了这个网站，做一个简单的说明
-category: build
+category: blog
 ---
 
 > 这个小站的用途
