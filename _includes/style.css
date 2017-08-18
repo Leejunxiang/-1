@@ -54,8 +54,17 @@ tfoot,
 thead,
 tr,
 th,
-td,
-
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 body {
   line-height: 1;
   color: #000;
@@ -385,10 +394,19 @@ a.external:hover {
   }
 }
 .post-wrapper blockquote {
-  margin-left: 25px;
-  font-size: 14px;
-  font-style: italic;
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
 }
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
 .post-wrapper img {
   max-width: 670px;
   display: block;
